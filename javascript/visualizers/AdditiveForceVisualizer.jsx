@@ -587,13 +587,13 @@ class AdditiveForceVisualizer extends React.Component {
             display: none;
           }
           .tick line {
-            stroke: #000;
+            stroke: #fff;
             stroke-width: 1px;
-            opacity: 0.4;
+            opacity: 0.6;
           }
           .tick text {
-            fill: #000;
-            opacity: 0.5;
+            fill: #fff;
+            opacity: 0.75;
             font-size: 12px;
             padding: 0px;
           }`
