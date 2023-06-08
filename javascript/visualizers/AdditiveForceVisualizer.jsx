@@ -501,7 +501,7 @@ class AdditiveForceVisualizer extends React.Component {
       .attr("y", -5 + topOffset)
       .attr("text-anchor", "middle")
       .attr("font-weight", "bold")
-      .attr("fill", "#000")
+      .attr("fill", "#fff")
       .text(format(",.2f")(this.invLinkFunction(joinPoint - totalNegEffects)))
       .attr("opacity", 1);
 
@@ -510,7 +510,7 @@ class AdditiveForceVisualizer extends React.Component {
       .attr("y", -22 + topOffset)
       .attr("text-anchor", "middle")
       .attr("font-size", "12")
-      .attr("fill", "#000")
+      .attr("fill", "#fff")
       .text(this.props.outNames[0])
       .attr("opacity", 0.5);
 
@@ -555,7 +555,7 @@ class AdditiveForceVisualizer extends React.Component {
         .attr("y", -22 + topOffset)
         .attr("text-anchor", "middle")
         .attr("font-size", "12")
-        .attr("fill", "#000")
+        .attr("fill", "#fff")
         .text("base value")
         .attr("opacity", 0.5);
     }
