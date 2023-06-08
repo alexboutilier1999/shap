@@ -872,12 +872,12 @@ class AdditiveForceArrayVisualizer extends React.Component {
             display: none;
           }
           .tick line {
-            stroke: #000;
+            stroke: #fff;
             stroke-width: 1px;
             opacity: 0.4;
           }
           .tick text {
-            fill: #000;
+            fill: #fff;
             opacity: 0.5;
             font-size: 12px;
             padding: 0px;
